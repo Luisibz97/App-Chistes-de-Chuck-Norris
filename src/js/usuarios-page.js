@@ -78,7 +78,7 @@ export const init = async() => {
     // Colocar el init en el index.js, para que se ejecute la creación
 
     (await obetenerUsuarios()).forEach(crearFilaUsuario) // Lo de abajo tambien cumple lo mismo
-    
+    console.log();
     // const usuarios = await obetenerUsuarios(); 
     // usuarios.forEach( crearFilaUsuario );
 }
