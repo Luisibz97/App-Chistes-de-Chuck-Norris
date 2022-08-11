@@ -1,9 +1,10 @@
+<<<<<<< HEAD
 
 const jokeUrl =     'https://api.chucknorris.io/jokes/random'
 const urlUsuarios = 'https://reqres.in/api/users?page=2'
-
-
-
+=======
+const jokeUrl = 'https://api.chucknorris.io/jokes/random'
+>>>>>>> 1163501ac1ab60cfd4e6f1bb1e4c5c43cf7eb4e1
 
 const obtenerChiste = async () => {
 
@@ -23,6 +24,7 @@ const obtenerChiste = async () => {
     
 }
 
+<<<<<<< HEAD
 const obetenerUsuarios = async () => {
 
     const resp   = await fetch( urlUsuarios );
@@ -33,33 +35,9 @@ const obetenerUsuarios = async () => {
 
 
 
+=======
+>>>>>>> 1163501ac1ab60cfd4e6f1bb1e4c5c43cf7eb4e1
 export {
     obtenerChiste,
     obetenerUsuarios
 }
-
-
-
-
-
-
-
-
-
-
-
-
-// fetch( jokeUrl )
-// .then( resp => resp.json() )
-// .then( ({ id, value }) => {
-//       console.log( id, value );
-// });   
-
-// fetch( jokeUrl ).then(resp =>  {
-
-//     resp.json().then( ({ value, id }) => {
-
-//         console.log(id);
-//         console.log(value);
-//     })
-// })
