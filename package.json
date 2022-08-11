@@ -2,8 +2,7 @@
   "name": "webpack-inicial",
   "version": "1.0.0",
   "description": "App de Chistes de Chuck Norris",
-  "main": "index.js", 
-  "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
